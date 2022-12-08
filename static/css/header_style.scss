@@ -1,0 +1,43 @@
+header {
+    justify-content: space-between;
+    padding: 10px;
+    width: 20%;
+    margin-top: 20px;
+    overflow-y: scroll;
+    // メニューの文字の折り返し防止(本当はスマホ画面になったらメニューバーの位置をTwitterみたいに下側に移動させたかったが時間がなくて断念)
+    min-width: 156px;
+
+    .icon {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    ul {
+        margin-top: 20px;
+        list-style: none;
+        display: block;
+
+        li {
+
+            a {
+                margin-right: 20px;
+                font-size: 1.2rem;
+                font-weight: 700;
+                margin: 10px;
+                padding: 10px;
+                display: block;
+                border-radius: 50px;
+            }
+
+            &:hover {
+                background-color: #cbcbcb;
+                border-radius: 50px;
+                text-decoration: none;
+            }
+
+            span {
+                vertical-align: middle;
+            }
+        }
+    }
+}

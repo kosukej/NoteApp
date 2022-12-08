@@ -1,0 +1,17 @@
+main .content {
+  padding: 30px;
+  min-height: 50px;
+  border-bottom: #e4e4e4 solid 0.5px;
+  border-top: #e4e4e4 solid 0.5px;
+}
+main .content:hover {
+  background-color: #ebebeb;
+}
+main .content .date {
+  font-size: 0.8rem;
+  color: #acacac;
+}
+main .list {
+  border-left: #e4e4e4 solid 1px;
+  border-right: #e4e4e4 solid 1px;
+}/*# sourceMappingURL=list_style.css.map */

@@ -1,0 +1,34 @@
+header {
+  justify-content: space-between;
+  padding: 10px;
+  width: 20%;
+  margin-top: 20px;
+  overflow-y: scroll;
+  min-width: 156px;
+}
+header .icon {
+  font-weight: 700;
+  font-size: 2rem;
+}
+header ul {
+  margin-top: 20px;
+  list-style: none;
+  display: block;
+}
+header ul li a {
+  margin-right: 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  border-radius: 50px;
+}
+header ul li:hover {
+  background-color: #cbcbcb;
+  border-radius: 50px;
+  text-decoration: none;
+}
+header ul li span {
+  vertical-align: middle;
+}/*# sourceMappingURL=header_style.css.map */
